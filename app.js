@@ -8,7 +8,7 @@ app.set('views', './views')
 app.set('view engine', 'mustache')
 
 app.get('/', function (req, res) {
-  res.render('home')
+  res.render('login')
 })
 
 app.listen(3000, function () {
